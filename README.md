@@ -1,2 +1,2 @@
-# HaveEnjoyComposer
+# he-composer
 composer plugin
