@@ -1,0 +1,2 @@
+# HaveEnjoyComposer
+composer plugin
