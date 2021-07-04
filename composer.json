@@ -1,14 +1,19 @@
 {
-  "name": "have-enjoy/he-composer",
-  "description": "composer plugin from have-enjoy",
-  "minimum-stability": "stable",
-  "license": "proprietary",
-  "authors": [
+    "name": "have-enjoy/he-composer",
+    "description": "composer plugin from have-enjoy",
+    "minimum-stability": "stable",
+    "license": "proprietary",
+    "authors": [
     {
       "name": "have-enjoy",
       "email": "yusuke.shibata@have-enjoy.com"
     }
-  ],
-  "require": {
-  }
+    ],
+    "require": {
+    },
+    "autoload": {
+        "psr-4": {
+            "HaveEnjoy\\": "src/HeComposer",
+        }
+    }
 }

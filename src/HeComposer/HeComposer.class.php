@@ -1,10 +1,21 @@
 <?php
 
 
-namespace hecomposer;
+namespace HaveEnjoy;
 
 
-class HeComposer
+class Composer
 {
+    function __construct()
+    {
+        echo __FUNCTION__." => ".__DIR__;
+        exit;
+    }
 
+    public function test()
+    {
+        echo __FUNCTION__." => ".__DIR__;
+        exit;
+
+    }
 }
