@@ -4,15 +4,14 @@
 namespace HaveEnjoy;
 
 
-class Composer
+class HeComposer
 {
     function __construct()
     {
         echo __FUNCTION__." => ".__DIR__;
-        exit;
     }
 
-    public function test()
+    public static function test()
     {
         echo __FUNCTION__." => ".__DIR__;
         exit;

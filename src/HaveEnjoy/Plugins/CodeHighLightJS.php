@@ -1,7 +1,7 @@
 <?php
 
 
-namespace hecomposer\highlight;
+namespace HaveEnjoy\Plugins;
 
 /**
  * Class highlight
@@ -9,9 +9,9 @@ namespace hecomposer\highlight;
  * @version highlight 11.0.1
  * @url https://highlightjs.org/
  */
-class highlight
+class CodeHighLightJS
 {
-    public function getStylesInfo()
+    public static function getStylesInfo()
     {
         $styles = array(
             "obsidian" => array(
@@ -36,6 +36,8 @@ class highlight
                 ),
             ),
         );
+
+        return $styles;
     }
 
 }
