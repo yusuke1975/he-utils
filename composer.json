@@ -1,8 +1,8 @@
 {
-    "name": "have-enjoy/he-composer",
-    "description": "composer plugin from have-enjoy",
+    "name": "have-enjoy/he-utils",
+    "description": "have-enjoy utility",
     "minimum-stability": "stable",
-    "license": "proprietary",
+    "license": "MIT",
     "authors": [
     {
       "name": "have-enjoy",
@@ -13,7 +13,7 @@
     },
     "autoload": {
         "psr-4": {
-            "HaveEnjoy\\": "src/HaveEnjoy"
+            "HeUtils\\": "src/HeUtils"
         }
     }
 }
