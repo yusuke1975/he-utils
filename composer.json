@@ -1,12 +1,14 @@
 {
     "name": "yusuke1975/he-utils",
     "description": "have-enjoy utility",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "license": "MIT",
     "authors": [
-    {
-      "name": "have-enjoy",
-      "email": "yusuke.shibata@have-enjoy.com"
-    }
+        {
+          "name": "have-enjoy",
+          "email": "yusuke.shibata@have-enjoy.com"
+        }
     ],
     "require": {
         "yusuke1975/he-utils": "dev-master"
