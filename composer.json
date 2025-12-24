@@ -9,6 +9,7 @@
     }
     ],
     "require": {
+        "yusuke1975/he-utils": "dev-master"
     },
     "autoload": {
         "psr-4": {
