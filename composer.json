@@ -1,8 +1,6 @@
 {
     "name": "have-enjoy/he-utils",
     "description": "have-enjoy utility",
-    "minimum-stability": "dev",
-    "prefer-stable": true,
     "license": "MIT",
     "authors": [
         {
@@ -10,9 +8,6 @@
           "email": "yusuke.shibata@have-enjoy.com"
         }
     ],
-    "require": {
-        "have-enjoy/he-utils": "dev-master"
-    },
     "autoload": {
         "psr-4": {
             "HeUtils\\": "src/HeUtils"
