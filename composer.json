@@ -1,15 +1,13 @@
 {
-    "name": "yusuke1975/he-utils",
+    "name": "have-enjoy/he-utils",
     "description": "have-enjoy utility",
     "license": "MIT",
     "authors": [
-    {
-      "name": "have-enjoy",
-      "email": "yusuke.shibata@have-enjoy.com"
-    }
+        {
+          "name": "have-enjoy",
+          "email": "yusuke.shibata@have-enjoy.com"
+        }
     ],
-    "require": {
-    },
     "autoload": {
         "psr-4": {
             "HeUtils\\": "src/HeUtils"
